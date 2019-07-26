@@ -1,0 +1,67 @@
+{
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "plugins": ["react"],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./config/webpack.config.js"
+      }
+    }
+  },
+  "rules": {
+    "brace-style": ["error", "stroustrup"],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "never",
+        "objects": "always",
+        "imports": "never",
+        "exports": "never",
+        "functions": "ignore"
+      },
+      "always"
+    ],
+    "class-methods-use-this": 0,
+    "no-case-declarations": 0,
+    "no-param-reassign": 0,
+    "no-unused-vars": 2,
+    "import/prefer-default-export": 0,
+    "import/no-cycle": 0,
+    "import/no-unresolved": 0,
+    "no-var": 0,
+    "one-var": 0,
+    "max-len": 0,
+    "indent": ["error", 2],
+    "semi": ["error", "always"],
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false,
+        "classes": false,
+        "variables": false
+      }
+    ],
+    "quotes": ["error", "single"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "no-underscore-dangle": 0,
+    "no-console": 0,
+    "no-shadow": 0,
+    "no-bitwise": ["off"],
+    "no-mixed-operators": ["off"],
+    "arrow-parens": ["error", "as-needed"],
+    "no-undef": 0,
+    "global-require": 0,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2
+  }
+}
