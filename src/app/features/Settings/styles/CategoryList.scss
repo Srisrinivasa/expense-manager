@@ -1,0 +1,19 @@
+.remove-btn {
+    border-radius: 50%;
+    outline: none;
+}
+.item-list {
+    min-height: 15rem;
+    overflow-y: scroll;
+    border: 0.1rem solid #bcbcbc;
+}
+b {
+    &:hover {
+        cursor: pointer;
+    }
+}
+button {
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
