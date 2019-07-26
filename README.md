@@ -2,7 +2,7 @@
 
 ## Description
 
-An to application manage the expenses.
+An application to manage the expenses.
 
 ## Getting Started
 

@@ -1,5 +1,5 @@
 const merge = require('webpack-merge');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const { CleanWebpackPlugin, } = require('clean-webpack-plugin');
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
 const config = require('./webpack.config.js');

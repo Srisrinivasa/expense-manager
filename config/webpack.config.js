@@ -42,12 +42,6 @@ const config = {
     new webpack.ProgressPlugin(),
     new HtmlWebpackPlugin({
       template: './src/index.html',
-    }),
-    new webpack.DefinePlugin({
-      'process.env': {
-        // SERVER_PROXY: JSON.stringify(`http://${process.env.SERVER_PROXY || 'localhost'}`),
-        // SERVER_PORT: JSON.stringify(process.env.SERVER_PORT || 3000),
-      },
     })
   ],
 };
